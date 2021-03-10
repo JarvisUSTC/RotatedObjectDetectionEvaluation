@@ -15,3 +15,8 @@ I know in detectron2 RotatedCOCOEvaluator can satisfy almost all cases for rotat
 - dataset/coco.py needs to be inited for your own data format.
 - In engine.py, First store all testing data after augmentations and all prediction results. Then create RotatedCOCOEvaluator using the stored testing data and prediction results to evaluate.
 
+## Link
+
+https://github.com/fundamentalvision/Deformable-DETR
+
+https://github.com/cocodataset/cocoapi
