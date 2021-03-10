@@ -10,7 +10,8 @@ I know in detectron2 RotatedCOCOEvaluator can satisfy almost all cases for rotat
 ## Usage
 
 - dataset/Rotatedcoco.py rewrite **COCO**
-- dataset/rotated_coco_eval.py rewrite two class — **CocoEvaluator and CocoEval**
+- dataset/rotated_coco_eval.py rewrite **CocoEvaluator**
+- dataset/coco_eval.py rewrite **CocoEval**
 - dataset/transforms.py is for data augmentation
 - dataset/coco.py needs to be inited for your own data format.
 - In engine.py, First store all testing data after augmentations and all prediction results. Then create RotatedCOCOEvaluator using the stored testing data and prediction results to evaluate.
