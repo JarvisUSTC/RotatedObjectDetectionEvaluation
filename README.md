@@ -19,4 +19,4 @@ I know in detectron2 RotatedCOCOEvaluator can satisfy almost all cases for rotat
 
 https://github.com/fundamentalvision/Deformable-DETR
 
-https://github.com/cocodataset/cocoapi
+https://github.com/cocodataset/cocoapi![Evaluator](D:\Experiment\MSRA\Evaluation_For_Rotated_Object_Detection\RotatedObjectDetectionEvaluation\Evaluator.png)
